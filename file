@@ -1,0 +1,38 @@
+ 268  git add peter test
+  269  git commit -m "first"
+  270  git branch -M main
+  271  git remote add origin https://github.com/Pierreta70/focus.git
+  272  git push -u origin main
+  273  clear
+  274  cd ..
+  275  ls
+  276  git clone https://github.com/kemvoueric/foucus-jenkins.git
+  277  ls
+  278  cp -r foucus-jenkins/* .
+  279  ls
+  280  rm -rf foucus-jenkins/
+  281  ls
+  282  cd ..
+  283  ls -l
+  284  clear
+  285  cd ~
+  286  pwd
+  287  cd
+  288  pwd
+  289  cd /
+  290  pwd
+  291  cd
+  292  pwd
+  293  clear
+  294  vim jenkins-backup.sh
+  295  chmod +x jenkins-backup.sh
+  296  ls
+  297  #apt-get update && #apt-get upgrade
+  298  #apt-get install cron
+  299  apt-get update && apt-get upgrade
+  300  apt-get install cron
+  301  systemctl status cron
+  302  chmod +x jenkins-backup.sh
+  303  ls
+  304  vim jenkins-backup.sh
+
