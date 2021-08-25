@@ -32,7 +32,6 @@
   299  apt-get update && apt-get upgrade
   300  apt-get install cron
   301  systemctl status cron
-  302  chmod +x jenkins-backup.sh
-  303  ls
+  302  chmod +x jenkins-backup.s
   304  vim jenkins-backup.sh
 
