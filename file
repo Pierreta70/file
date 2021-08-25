@@ -34,4 +34,5 @@
   301  systemctl status cron
   302  chmod +x jenkins-backup.s
   304  vim jenkins-backup.sh
+  305 ls
 
